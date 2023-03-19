@@ -25,7 +25,7 @@ import torch
 import torch.nn as nn
 import torch.autograd as autograd
 
-import bvh_cuda
+import mesh_intersection.bvh_cuda as bvn_cuda
 
 
 class BVHFunction(autograd.Function):
